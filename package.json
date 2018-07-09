@@ -1,0 +1,26 @@
+{
+  "name": "keep",
+  "version": "1.0.0",
+  "description": "NodeJS app for authenticating using JWT Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./server/test/**/*.js",
+    "lint": "node_modules/.bin/eslint './server/**/*.js' --ignore-path .eslintignore"
+  },
+  "keywords": [
+    "node.js",
+    "express.js"
+  ],
+  "author": "StackRoute",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "~4.15.5",
+    "mongoose": "^5.0.10"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^5.0.5",
+    "supertest": "^3.0.0",
+    "eslint": "^4.19.1"
+  }
+}
