@@ -17,6 +17,7 @@
 - Instructions for implementation and submission
 	- Successful submission must have a well document README.md, which explain how to build, run & test the application, you can also add a DESIGN.MD to explain your data model & design
 	- Source code must be integrated with ESLint with standard ESLint recommended JS rules, and should not have any lint errors open
+	- Ensure you have exposed method 'initializeMongooseConnection' which initializes the mongoose connection, from ./server/modules.js else app will be in hung state
 	- Seed code can be cloned form https://gitlab-cts.stackroute.in/stack_nodejs/nodejs-keep-level-1-assignment.git
 
 - API for user registration **/api/v1/users/register**
