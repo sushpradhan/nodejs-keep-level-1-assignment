@@ -5,7 +5,7 @@
 	- As a user, i should be able to login.
 	- As a user, i should be able to create a note.
 	- As a user, i should be able to list all created notes by me.
-	- As a user, i should be able to update note's title, text and state (started, not-started, completed)
+	- As a user, i should be able to update note's **title**, **text** and **state** (**started**, **not-started**, **completed**)
 
 - What must be implemented:- 
 	- NodeJS based server side application (server part only of the application)
@@ -20,14 +20,14 @@
 	- Seed code can be cloned form https://gitlab-cts.stackroute.in/stack_nodejs/nodejs-keep-level-1-assignment.git
 
 - API for user registration **/api/v1/users/register**
-	- Registration API will insert username and password into database
-	- bycript npm module should be used to store password in bycript form.
+	- Registration API will insert **username** and **password** into database
+	- **bycript** npm module should be used to store **password** in bycript form.
 - API for login  **/api/v1/users/login**
-	- User should be able to login into system using username and password
+	- User should be able to login into system using **username** and **password**
 - API for creating a note **/api/v1/notes/**
-	- Note model will have id, title, text, state, userId, createdOn, modifiedOn attributes
-	- userId will be passed as query param into request and will be used to store notes by userId.
+	- Note model will have **id**, **title**, **text**, **state**, **userId**, **createdOn**, **modifiedOn** attributes
+	- **userId** will be passed as query param into request and will be used to store notes by **userId**.
 - API for getting all notes of a user **/api/v1/notes/**
-	- userId will be passed as query param into request and will be used to fetch notes by userId.
+	- **userId** will be passed as **query param** into request and will be used to fetch notes by **userId**.
 - API for updating a note **/api/v1/notes/:noteId**
-	- noteId will be passed as route parameters into url and will be used to update note by id
+	- **noteId** will be passed as route parameters into url and will be used to update note by **id**
