@@ -23,7 +23,7 @@
 
 - API for user registration **/api/v1/users/register**
 	- Registration API will insert **username** and **password** into database
-	- **bycript** npm module should be used to store **password** in bycript form.
+	- **bcryptjs** npm module should be used to store **password** in bycript form.
 - API for login  **/api/v1/users/login**
 	- User should be able to login into system using **username** and **password**
 - API for creating a note **/api/v1/notes/**
