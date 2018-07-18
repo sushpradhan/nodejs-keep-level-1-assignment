@@ -32,7 +32,7 @@ describe('Testing to login user', function()
   it('Should handle a request to successfully login', function(done)
   {
     //Response body should have a key as user which will hold userName as a key and it will hold username value
-    // status code = 201
+    // status code = 200
     // response body will hold user.userName
     done();
   });
