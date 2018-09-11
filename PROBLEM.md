@@ -33,3 +33,9 @@
 	- **userId** will be passed as **query param** into request and will be used to fetch notes by **userId**.
 - API for updating a note **/api/v1/notes/:noteId**
 	- **noteId** will be passed as route parameters into url and will be used to update note by **id**
+
+## MENTORS TO BEGIN REVIEW YOUR WORK ONLY AFTER 
+
+- You add the respective Mentor as a Reporter/Master into your Assignment Repository
+- You have checked your Assignment on the Automated Evaluation Tool - Hobbes (Check for necessary steps in your Boilerplate - README.md/PROBLEM.md file. ) and got the required score - Check with your mentor about the Score you must achieve before it is accepted for Manual Submission. 
+- Intimate your Mentor on Slack and/or Send an Email to learner.support@stackroute.in - with your Git URL - Once you done working and is ready for final submission.
