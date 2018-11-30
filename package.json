@@ -4,7 +4,7 @@
   "description": "NodeJS app for authenticating using JWT Token",
   "main": "index.js",
   "scripts": {
-      "start" : "./server/bin/www.js",
+      "start" : "./server/bin/www",
     "test": "node_modules/.bin/mocha ./server/test/**/*.js",
     "lint": "node_modules/.bin/eslint './server/**/*.js' --ignore-path .eslintignore"
   },
