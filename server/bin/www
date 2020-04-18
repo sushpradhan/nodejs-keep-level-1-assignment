@@ -1,4 +1,4 @@
-// write your server code here
+
 const app = require('../app');
 const { serverConfig } = require('../config').appConfig;
 

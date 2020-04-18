@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const notesCtrl = require('./notes.controller');
 
-//add notes
+
 router.post('/',(req,res) => { 
    let userId = req.query.userId;
 
@@ -13,7 +13,7 @@ router.post('/',(req,res) => {
 });
 
 
-//get notes by user id
+
 router.get('/',(req,res) => {  
     
     let userId = req.query.userId;
@@ -24,7 +24,7 @@ router.get('/',(req,res) => {
     }); 
 });
 
-//Update notes
+
 router.put('/:noteId',(req,res) => {  
     //.log('update notes 1');
     let noteId = req.params.noteId;

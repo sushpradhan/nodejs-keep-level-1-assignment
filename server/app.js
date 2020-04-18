@@ -3,12 +3,12 @@ let express = require('express');
 let app = express();
 let api = require('./api/v1');
 
-//write your logic here
+
 let modules = require('./modules');
 
 modules.initializeMongooseConnection();
 
-//set middleware
+
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended : false}));
 
